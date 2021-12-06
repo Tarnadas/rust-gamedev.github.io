@@ -84,6 +84,44 @@ out [this form][gamedev-meetup-form].
 
 ## Game Updates
 
+### Shroom Kingdom
+
+![Shroom Kingdom game preview](shroom-kingdom.gif)
+_Starting the game and placing some blocks_
+
+Shroom Kingdom ([GitHub][shrm-github], [Discord][shrm-discord],
+[Twitter][shrm-twitter]) is an upcoming play-to-earn video game built with web
+technologies running on the [NEAR Blockchain][near-blockchain].
+
+Currently a prototype of the game is in development.
+An asset file, that has been extracted from Super Mario Maker 2 game files with an
+[external program](asset-extractor), is loaded inside a browser to start the game.
+The game is written with the [Bevy game engine](bevy)
+and the [Rapier physics engine](rapier) and is compiled to WebAssembly.
+The prototype is still very basic, but you can already place and remove blocks
+and have a feeling about the physics recreation of the original games.
+
+In the past months there also has been the SHRM token launch and a
+[token airdrop](shrm-airdrop) for NEAR early adopters. The [Shroom Kingdom DAO](shrm-dao)
+is looking for people, who want to become involved and get paid with
+their very own token.
+
+To onboard new users to blockchain gaming, a [linkdrop campaign](shrm-linkdrop)
+is currently in development, where people can claim a small amount of
+NEAR token to create their own wallet.
+
+[shroom-kingdom]: https://shroomkingdom.net/
+[shrm-github]: https://github.com/Shroom-Kingdom
+[shrm-discord]: https://discord.gg/SPZsgSe
+[shrm-twitter]: https://twitter.com/shrm_kingdom
+[near-blockchain]: https://near.org
+[asset-extractor]: https://github.com/Shroom-Kingdom/asset-extractor/
+[bevy]: https://bevyengine.org/
+[rapier]: https://rapier.rs/
+[shrm-airdrop]: https://twitter.com/shrm_kingdom/status/1450362543608901634?s=20
+[shrm-dao]: https://whitepaper.shroomkingdom.net/8_DAO.html
+[shrm-linkdrop]: https://linkdrop.shroomkingdom.net/
+
 ### Flesh
 
 ![flesh preview](flesh.gif)
